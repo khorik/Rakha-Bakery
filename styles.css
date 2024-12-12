@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* light gray background */
+}
+
+header {
+  background-color: #333; /* dark gray background */
+  padding: 1em;
+  text-align: right;
+  color: #fff; /* white text */
+}
+
+nav {
+  background-color: #333; /* dark gray background */
+  padding: 1em;
+  text-align: right; /* add this to align the menu to the right */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* add this to vertically center the menu items */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff; /* white text */
+  text-decoration: none;
+  transition: color 0.2s ease; /* add a transition effect to the hover */
+}
+
+nav a:hover {
+  color: #ccc; /* light gray text on hover */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #fff; /* white background */
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+#home {
+  background-color: #ffbd07; /* warm orange background */
+  padding: 4em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; /* make it full height */
+}
+
+#home h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff; /* green text */
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  color: #fff; /* white text */
+  margin-bottom: 40px;
+}
+
+#home button {
+  background-color: #ff9800; /* vibrant orange background */
+  color: #fff; /* white text */
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px; /* add a rounded corner */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+}
+
+#home button:hover {
+  background-color: #ff69b4; /* bright pink background on hover */
+}
+
+#about {
+  background-color: #8bc34a; /* soft green background */
+}
+
+#products {
+  background-color: #fff; /* white background */
+}
+
+#contact {
+  background-color: #4caf50; /* bright green background */
+}
+
+#order-menu {
+  background-color: #2196f3; /* bright blue background */
+}
+
+.order-btn {
+  background-color: #ff9800; /* vibrant orange background */
+  color: #fff; /* white text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #ff69b4; /* bright pink background on hover */
+}
+
+#products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#products li {
+  margin: 20px;
+  width: 250px;
+}
+
+#products img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+/* Login page styles */
+#login-form {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard page styles */
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.featured-image {
+  margin-bottom: 20px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex-basis: 45%;
+  margin: 10px;
+}
+
+.column img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

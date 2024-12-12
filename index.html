@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakha Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#products">Menu</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+          <div class="overlay">
+          <h1>Selamat Datang di Rakha Bakery</h1>
+        </div>
+            <p>Nikmati hidangan manis terlezat di kota!</p>
+            <button>Baca Lebih Lanjut</button>
+        </section>
+        <section id="about">
+          <h2>Tentang Kami</h2>
+          <p>Rakha Bakery adalah bisnis keluarga yang berdedikasi untuk menyajikan produk bakery terbaru dan terlezat di kota.</p>
+          <div class="image-gallery">
+            <div class="featured-image">
+              <img src="tokoroti.jpg" alt="Gambar Tentang Kami 1">
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="roti1.jpg" alt="Gambar Tentang Kami 2">
+              </div>
+              <div class="column">
+                <img src="roti.jpeg" alt="Gambar Tentang Kami 3">
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section id="products">
+            <h2>Menu</h2>
+            <ul>
+              <li>
+                <img src="coklatkeju.jpg" alt="Gambar Produk 1">
+                <h3>Coklat Keju</h3>
+                <p class="price">Harga: IDR 12,000 / potong</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="coklat.jpg" alt="Gambar Produk 2">
+                <h3>Coklat</h3>
+                <p class="price">Harga: IDR 11,000 / slice</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="abongulung.jpg" alt="Gambar Produk 3">
+                <h3>Abon Gulung</h3>
+                <p class="price">Harga: IDR 15,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="pisangcoklat.jpg" alt="Gambar Produk 4">
+                <h3>Pisang Coklat</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="donutkacang.jpg" alt="Gambar Produk 5">
+                <h3>Donut Kacang</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="donutkeju.jpg" alt="Gambar Produk 6">
+                <h3>Donut Keju</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="donutcoklat.jpg" alt="Gambar Produk 7">
+                <h3>Donut Coklat</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="coklatpisangkeju.jpg" alt="Gambar Produk 8">
+                <h3>Coklat Pisang Keju</h3>
+                <p class="price">Harga: IDR 14,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="nanas.jpg" alt="Gambar Produk 9">
+                <h3>Nanas</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+              <li>
+                <img src="kelapa.jpg" alt="Gambar Produk 10">
+                <h3>Kelapa</h3>
+                <p class="price">Harga: IDR 12,000 / loaf</p>
+                <button class="order-btn">Pesan Sekarang</button>
+              </li>
+            </ul>
+          </section>
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Telepon: 081318689664</p>
+            <p>Email: [info@rakhabakery.com](mailto:info@rakhabakery.com)</p>
+            <p>Alamat: Jalan RHM Noeradji 10 Karawaci Kota Tangerang</p>
+        </section>
+        <section id="order-menu">
+            <h2>Menu Pesan</h2>
+            <form>
+                <label for="product">Pilih Produk:</label>
+                <select id="product" name="product">
+                    <option value="coklatkeju">Coklat Keju</option>
+                    <option value="coklat">Coklat</option>
+                    <option value="abongulung">Abon Gulung</option>
+                    <option value="pisangcoklat">Pisang Coklat</option>
+                    <option value="donutkacang">Donut Kacang</option>
+                    <option value="donutkeju">Donut Keju</option>
+                    <option value="donutcoklat">Donut Coklat</option>
+                    <option value="pisangcoklatkeju">Pisang Coklat Keju</option>
+                    <option value="nanas">Nanas</option>
+                    <option value="kelapa">Kelapa</option>
+                </select>
+                <label for="quantity">Jumlah:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rakha Bakery. Hak cipta dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
